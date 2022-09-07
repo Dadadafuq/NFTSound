@@ -1,0 +1,173 @@
+body {
+    background-color: #08000e;
+}
+
+//section 1
+
+.container {
+    color: whitesmoke;
+}
+
+.section-1 {
+    padding-top: 5%;
+}
+
+.content-section-1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+.context-1 {
+    font-size: 45px;
+}
+
+.context-2 {
+    font-size: 20px;
+}
+
+span {
+    color: #8801ff;
+}
+
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 45%;
+}
+
+.btn-explore-now {
+    background: #654ea3;
+    background: -webkit-linear-gradient(to right, #8801ff, #3618af);
+    background: linear-gradient(to right, #8801ff, #3618af);
+    color: #fff;
+}
+
+.photo-0 {
+    padding-left: 20%;
+}
+
+.section-1-text {
+    justify-content: space-evenly;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.buy-now {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    border-radius: 20px;
+    width: 40%;
+    height: 15%;
+    background-color: black;
+    margin-top: -130px;
+    
+}
+
+.section-1-product {
+    padding-left: 5%;
+}
+.section-1-price {
+    padding-left: 5%;
+    font-size: 12px;
+}
+
+.section-1-footer {
+    padding-top: 10%;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+// section 2
+
+.content-section-2 {
+    padding-top: 10%;
+}
+
+.text-center {
+    line-height: 25px;
+}
+
+.section-2-text {
+    padding-top: 15%;
+}
+
+.photo-1 {
+    padding-right: 25%;
+}
+
+// section 3
+
+.row-section-3 {
+    padding-top: 5%;
+}
+
+.btn-section-3 {
+    padding-top: 2%;
+}
+
+//section 4
+
+.section-4-content {
+    padding-top: 5%;
+}
+
+.section-4-text {
+    padding-top: 5%;
+}
+
+.section-5 {
+    padding-top: 5%;
+}
+
+.collapse {
+    color: #08000e;
+}
+
+.dropdown {
+    padding-top: 5%;
+}
+
+// footer
+
+.left-side-text {
+    padding-top: 5%;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.footer-items {
+    padding-top: 5%;
+}
+
+.items {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.footer-help {
+    padding-top: 5%;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.footer {
+    padding-top: 10%;
+    padding: 1%;
+    width: 100%;
+    background-color: black;
+    opacity: 65%;
+}
