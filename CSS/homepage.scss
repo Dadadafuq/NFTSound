@@ -117,6 +117,7 @@ span {
     background: linear-gradient(to right, #8801ff, #3618af);
     clip-path: polygon(15% 0%, 100% 0, 100% 100%, 0 100%, 0% 40%);
     border: none;
+    // transform: rotate(-3deg);
 }
 .my-selected-item {
     margin-left: 40%; 
@@ -250,5 +251,5 @@ span {
     padding: 1%;
     width: 100%;
     background-color: black;
-    opacity: 65%;
+    opacity: 45%;
 }
