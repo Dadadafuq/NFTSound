@@ -40,6 +40,7 @@
         </div>
       </div>
     </nav>
+    <hr style="color:#654ea3;">
   </header>
 
   <!-- section 1 -->
@@ -52,7 +53,8 @@
             Generate <span> NFT</span> <br> Collection Without <br> Coding
           </h1>
           <p class="context-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nibh tortor, lobortis vel libero ac, ornare elementum augue.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nibh tortor, lobortis vel libero ac,
+            ornare elementum augue.
           </p>
           <div class="buttons">
             <button class="col btn btn-explore-now btn-rounded">Explore Now</button>
@@ -104,10 +106,14 @@
     <div class="container section-2">
       <div class="container content-section-2">
         <h2 class="text-center"> Who we are </h2>
-        <p class="text-center"> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nibh tortor, lobortis vel libero ac, ornare elementum augue. Quisque eu vehicula massa, ut malesuada ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        <p class="text-center"> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nibh tortor,
+          lobortis vel libero ac, ornare elementum augue. Quisque eu vehicula massa, ut malesuada ligula. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit.
         </p>
         <p class="text-center">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nibh tortor, lobortis vel libero ac, ornare elementum augue. Quisque eu vehicula massa, ut malesuada ligula. Lobortis vel libero ac, ornare elementum augue. Quisque eu vehicula massa, ut malesuada ligula. </p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nibh tortor, lobortis vel libero ac,
+          ornare elementum augue. Quisque eu vehicula massa, ut malesuada ligula. Lobortis vel libero ac, ornare
+          elementum augue. Quisque eu vehicula massa, ut malesuada ligula. </p>
       </div>
       <div class="d-flex">
         <div class="col-7">
@@ -251,6 +257,58 @@
           <h2>
             Have a Question?
           </h2>
+          <!-- <div class="accordion">
+            <div class="contentBx">
+              <div class="label"> List One </div>
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices sodales pharetra. Integer in
+                  placerat mauris, in ultrices est. Proin nec mauris sed dui malesuada convallis nec vel ipsum. 
+                </p>
+              </div>
+            </div>
+            <div class="contentBx">
+              <div class="label"> List Two </div>
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices sodales pharetra. Integer in
+                  placerat mauris, in ultrices est. Proin nec mauris sed dui malesuada convallis nec vel ipsum. 
+                </p>
+              </div>
+            </div>
+            <div class="contentBx">
+              <div class="label"> List Three </div>
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices sodales pharetra. Integer in
+                  placerat mauris, in ultrices est. Proin nec mauris sed dui malesuada convallis nec vel ipsum. 
+                </p>
+              </div>
+            </div>
+            <div class="contentBx">
+              <div class="label"> List Four </div>
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices sodales pharetra. Integer in
+                  placerat mauris, in ultrices est. Proin nec mauris sed dui malesuada convallis nec vel ipsum. 
+                </p>
+              </div>
+            </div>
+            <div class="contentBx">
+              <div class="label"> List Five </div>
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices sodales pharetra. Integer in
+                  placerat mauris, in ultrices est. Proin nec mauris sed dui malesuada convallis nec vel ipsum. 
+                </p>
+              </div>
+            </div>
+          </div> -->
+
+
+
+
+
           <div class="col section-4-dropdown">
             <div class="dropdown">
               <p>
@@ -332,11 +390,15 @@
             Create access avatars to your future metaverse, generate profile <br>picture for your game, or even just
             launch an avatar art collection. <br> Generate up to 10.000 NFTs
           </p>
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username"
-              aria-describedby="button-addon2" >
-            <button class="btn btn-explore-now btn-rounded" type="button" id="button-addon2">Subscribe</button>
+
+          <div class="box-input">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Recipient's username"
+                aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button class="btn btn-explore-now btn-rounded" type="button" id="button-addon2">Subscribe</button>
+            </div>
           </div>
+
         </div>
 
         <div class="col-7">
@@ -415,6 +477,15 @@
         </p>
       </div>
     </div>
+    <script>
+      const accordion = document.getElementsByClassName('dropdown');
+
+      for (i = 0; i < accordion.length; i++) {
+        accordion[i].addEventListener('click', function () {
+          this.classList.toggle('active')
+        })
+      }
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="JS/bootstrap js/bootstrap.js"></script>
     <script src="https://kit.fontawesome.com/fc30c8649d.js" crossorigin="anonymous"></script>
