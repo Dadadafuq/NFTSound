@@ -185,12 +185,10 @@ span {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    // padding: 7%;
     padding-top: 15%;
     padding-bottom: 10%;
     width: 70.5%;
     height: 10%;
-    // background-color:black;
     background: linear-gradient(to right, #6c01cc, #2f108e);
     opacity: 0.6;
     margin-top: -130px;
@@ -292,34 +290,9 @@ span {
     background-color: rgba(0, 0, 0, 0.205);
 }
 
-
-
-
-
-//
-
-// .accordion {
-//     max-width: 800px;
-// }
-
-// .accordion .contentBx {
-//     position: relative;
-//     margin: 10px 20px;
-// }
-
-// .accordion .contentBx .label {
-//     position: relative;
-//     padding: 10px;
-//     border: white !important;
-//     // background:#fff;
-//     color: black;
-//     cursor: pointer;
-// }
-
 .section-4-dropdown .dropdown .dropdown-qa-1::before {
     content: '+';
     position: absolute;
-    // top: 50%;
     right: 200px;
     transform: translateY(-30%);
     font-size: 1.5em;
@@ -336,7 +309,6 @@ span {
 .section-4-dropdown .dropdown .dropdown-qa-2::before {
     content: '+';
     position: absolute;
-    // top: 50%;
     right: 200px;
     transform: translateY(-30%);
     font-size: 1.5em;
@@ -345,7 +317,6 @@ span {
 .section-4-dropdown .dropdown .dropdown-qa-3::before {
     content: '+';
     position: absolute;
-    // top: 50%;
     right: 200px;
     transform: translateY(-30%);
     font-size: 1.5em;
@@ -358,7 +329,6 @@ span {
 .section-4-dropdown .dropdown .dropdown-qa-4::before {
     content: '+';
     position: absolute;
-    // top: 50%;
     right: 200px;
     transform: translateY(-30%);
     font-size: 1.5em;
@@ -371,7 +341,6 @@ span {
 .section-4-dropdown .dropdown .dropdown-qa-5::before {
     content: '+';
     position: absolute;
-    // top: 50%;
     right: 200px;
     transform: translateY(-30%);
     font-size: 1.5em;
@@ -380,35 +349,6 @@ span {
 .section-4-dropdown .dropdown.active .dropdown-qa-5::before {
     content: '-';
 }
-
-// .accordion .contentBx .label::before {
-//     content: '+';
-//     position: absolute;
-//     top: 50%;
-//     right: 20px;
-//     transform: translateY(-50%);
-//     font-size: 1.5em;
-// }
-
-// .accordion .contentBx.active .label::before {
-//     content: '-';
-// }
-
-// .accordion .contentBx .content {
-//     position: relative;
-//     padding: 10px;
-//     background: linear-gradient(to right, #6c01cc, #2f108e);
-//     height: 0px;
-//     overflow: hidden;
-//     transition: 0.5s;
-//     overflow-y: auto;
-
-// }
-
-// .accordion .contentBx.active .content {
-//     height: 120px;
-//     padding: 10px;
-// }
 
 .box-input {
     padding: 20px;
